@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpp_c"
+version = "0.2.0"
+description = "Compila C y C++ en Windows (Windows SDK / MSVC o w64devkit) usando SCons"
+requires-python = ">=3.9"
+dependencies = ["scons>=4.5"]
+
+[project.scripts]
+cpp_c = "cpp_c.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
