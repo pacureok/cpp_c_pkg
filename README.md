@@ -7,7 +7,7 @@ con **w64devkit** (MinGW-w64) o cualquier `gcc` basta.
     .c / .cpp  --(gcc -S)-->  .s  --(as)-->  .o  --(link)-->  .exe / .dll / .a
 
 ## Instalar
-    pip install -e .
+    pip install git+https://github.com/pacureok/cpp_c_pkg.git
 
 ## Uso
 ```python
